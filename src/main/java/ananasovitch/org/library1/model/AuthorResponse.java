@@ -9,7 +9,5 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AuthorResponse {
     private Long authorId;
-    private Integer errorCode;
-    private String errorMessage;
-    private String errorDetails;
+    private ErrorResponse error;
 }

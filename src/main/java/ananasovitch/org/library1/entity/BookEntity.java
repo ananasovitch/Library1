@@ -9,5 +9,5 @@ import lombok.Data;
 public class BookEntity {
     private Long id;
     private String bookTitle;
-    private AuthorEntity author;
+    private Long authorId;
 }
